@@ -563,7 +563,6 @@ public class KeyguardBottomAreaView extends FrameLayout implements View.OnClickL
         return false;
     }
 
-    @Override
     public void onUnlockMethodStateChanged() {
         mLockIcon.update();
         updateCameraVisibility();
