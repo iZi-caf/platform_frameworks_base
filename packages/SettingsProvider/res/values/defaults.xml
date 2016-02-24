@@ -293,4 +293,7 @@
          example "com.google.android.marvin.talkback/
          com.google.android.marvin.talkback.TalkBackService" -->
     <string name="def_enable_accessibility_services" translatable="false"></string>
+
+    <!-- Default for Settings.Global.MOBILE_DATA -->
+    <bool name="def_mobile_data_enabled">true</bool>
 </resources>
