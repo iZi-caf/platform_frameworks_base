@@ -70,6 +70,7 @@
   <!-- What the UI should display for "voice mail" unless overridden by the SIM-->
   <string name="defaultVoiceMailAlphaTag">Messagerie vocale</string>
   <!-- What the UI should display for "Msisdn" unless overridden by the SIM-->
+  <string name="defaultMsisdnAlphaTag">MSISDN1</string>
   <!-- For GsmMmiCode.java -->
   <!-- Displayed when the user dialed an MMI code whose function
          could not be performed. This will be displayed in a toast. -->
@@ -185,6 +186,7 @@
   <!-- Example: Service was enabled for: Voice, FAX -->
   <string name="serviceClassFAX">Télécopie</string>
   <!-- Example: Service was enabled for: Voice, SMS -->
+  <string name="serviceClassSMS">SMS</string>
   <!-- Meaning: asynchronous data.  Example: Service was enabled for: Voice, Async -->
   <string name="serviceClassDataAsync">Asynchrones</string>
   <!-- Meaning: synchronous data.  Example: Service was enabled for: Voice, Async -->
@@ -192,6 +194,7 @@
   <!-- Meaning: packet data.  Example: Service was enabled for: Voice, Packet -->
   <string name="serviceClassPacket">Paquet</string>
   <!-- Meaning: unknown.  Example: Service was enabled for: Voice, PAD -->
+  <string name="serviceClassPAD">PAD</string>
   <!-- CDMA Roaming Indicator Strings (non ERI)-->
   <!-- Default roaming indicator text -->
   <string name="roamingText0">Indicateur d\'itinérance activé</string>
@@ -214,7 +217,9 @@
   <!-- WFC Operator Error Messages showed as alerts -->
   <!-- WFC Operator Error Messages showed as notifications -->
   <!-- Template for showing cellular network operator name while WFC is active -->
+  <string name="wfcSpnFormat">%s</string>
   <!-- Template for showing operator name for data connection while WFC is active -->
+  <string name="wfcDataSpnFormat">%s</string>
   <!-- WFC, summary for Disabled -->
   <string name="wifi_calling_off_summary">Désactivé</string>
   <!-- WFC, summary for Wi-Fi Preferred -->
@@ -224,6 +229,7 @@
   <!-- WFC, summary for Wi-Fi Only -->
   <string name="wfc_mode_wifi_only_summary">Wi-Fi uniquement</string>
   <!-- Template for showing cellular network operator name while LTE calling is enabled -->
+  <string name="high_definition_tag">%s</string>
   <!--
         {0} is one of "bearerServiceCode*"
         {1} is dialing number
@@ -249,6 +255,7 @@
   <string name="fcError">Problème de connexion ou code de service non valide</string>
   <!-- android.net.http Error strings -->
   <!-- Displayed when a web request was successful. -->
+  <string name="httpErrorOk">OK</string>
   <!-- Displayed when a web request failed with a generic network error. -->
   <string name="httpError">Une erreur réseau s\'est produite.</string>
   <!-- Displayed when a web request failed because the URL could not be found. -->
@@ -394,9 +401,13 @@
          when the user asks to reboot into safe mode. [CHAR LIMIT=NONE] -->
   <string name="reboot_safemode_confirm">Voulez-vous redémarrer en mode sans échec ? Cette opération aura pour effet de désactiver toutes les applications tierces que vous avez installées. Elles seront réactivées au prochain redémarrage.</string>
   <!-- Title of dialog to confirm rebooting. -->
+  <string name="reboot_title">Redémarrer</string>
   <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the device, there will
          be a confirmation dialog.  This is the message. -->
+  <string name="reboot_confirm" product="tablet">Votre tablette va redémarrer.</string>
+  <string name="reboot_confirm" product="default">Votre téléphone va redémarrer.</string>
   <!-- Rebooting Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+  <string name="reboot_progress">Redémarrage\u2026</string>
   <!-- Recent Tasks dialog: title
      TODO: this should move to SystemUI.apk, but the code for the old
             recent dialog is still in the framework
@@ -418,6 +429,7 @@
   <!-- label for item that turns off power in phone options dialog -->
   <string name="global_action_power_off">Éteindre</string>
   <!-- label for item that reboots the phone in phone options dialog -->
+  <string name="global_action_reboot">Redémarrage</string>
   <!-- label for item that generates a bug report in the phone options dialog -->
   <string name="global_action_bug_report">Rapport de bug</string>
   <!-- Take bug report menu title [CHAR LIMIT=NONE] -->
@@ -460,6 +472,7 @@
   <!-- Label for a corporate profile in the intent forwarding app. [CHAR LIMIT=15] -->
   <string name="managed_profile_label">Professionnel</string>
   <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permgrouplab_contacts">Contacts</string>
   <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permgroupdesc_contacts">accéder à vos contacts</string>
   <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
@@ -471,6 +484,7 @@
   <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permgroupdesc_calendar">accéder à votre agenda</string>
   <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permgrouplab_sms">SMS</string>
   <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permgroupdesc_sms">envoyer et consulter des SMS</string>
   <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
@@ -478,6 +492,7 @@
   <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permgroupdesc_storage">accéder à des photos, à des contenus multimédias et à des fichiers sur votre appareil</string>
   <!-- Title of a category of application permissioncds, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permgrouplab_microphone">Microphone</string>
   <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permgroupdesc_microphone">enregistrer des fichiers audio</string>
   <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
@@ -1047,7 +1062,7 @@
   <!-- Phone number types from android.provider.Contacts. This could be used when adding a new phone number for a contact, for example. -->
   <string-array name="phoneTypes">
     <item>Domicile</item>
-    <item>Mobile</item>
+    <item>Téléphone portable</item>
     <item>Bureau</item>
     <item>Télécopie bureau</item>
     <item>Télécopie domicile</item>
@@ -1088,11 +1103,22 @@
   </string-array>
   <!-- The order of these is important, don't reorder without changing Contacts.java -->
   <!-- Instant Message protocols/providers from android.provider.Contacts -->
+  <string-array name="imProtocols">
+    <item>AIM</item>
+    <item>Windows Live</item>
+    <item>Yahoo</item>
+    <item>Skype</item>
+    <item>QQ</item>
+    <item>Google Talk</item>
+    <item>ICQ</item>
+    <item>Jabber</item>
+  </string-array>
   <!-- Custom phone number type -->
   <string name="phoneTypeCustom">Personnalisé</string>
   <!-- Home phone number type -->
   <string name="phoneTypeHome">Domicile</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Mobile</string>
   <!-- Work phone number type -->
   <string name="phoneTypeWork">Bureau</string>
   <!-- Work fax phone number type -->
@@ -1116,6 +1142,7 @@
   <!-- Other fax phone number type -->
   <string name="phoneTypeOtherFax">Autre télécopie</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">Radio</string>
   <!-- Telex phone number type -->
   <string name="phoneTypeTelex">Télex</string>
   <!-- TTY TDD phone number type -->
@@ -1125,7 +1152,9 @@
   <!-- Work pager phone number type -->
   <string name="phoneTypeWorkPager">Téléavertisseur (professionnel)</string>
   <!-- Assistant phone number type -->
+  <string name="phoneTypeAssistant">Assistant</string>
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
   <string name="eventTypeCustom">Personnalisé</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
@@ -1143,6 +1172,7 @@
   <!-- Other email type -->
   <string name="emailTypeOther">Autre</string>
   <!-- Mobile email type -->
+  <string name="emailTypeMobile">Mobile</string>
   <!-- Custom postal address type -->
   <string name="postalTypeCustom">Personnalisé</string>
   <!-- Home postal address type -->
@@ -1162,15 +1192,23 @@
   <!-- Custom IM protocol type -->
   <string name="imProtocolCustom">Personnalisé</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
   <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
+  <string name="imProtocolYahoo">Yahoo</string>
   <!-- Skype IM protocol type -->
+  <string name="imProtocolSkype">Skype</string>
   <!-- QQ IM protocol type -->
+  <string name="imProtocolQq">QQ</string>
   <!-- Google Talk IM protocol type -->
+  <string name="imProtocolGoogleTalk">Hangout</string>
   <!-- ICQ IM protocol type -->
+  <string name="imProtocolIcq">ICQ</string>
   <!-- Jabber IM protocol type -->
+  <string name="imProtocolJabber">Jabber</string>
   <!-- NetMeeting IM protocol type -->
+  <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
   <string name="orgTypeWork">Bureau</string>
   <!-- Other organization type -->
@@ -1180,6 +1218,7 @@
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <string name="relationTypeCustom">Personnalisée</string>
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeAssistant">Assistant</string>
   <!-- Brother relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeBrother">Frère</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
@@ -1195,6 +1234,7 @@
   <!-- Mother relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeMother">Mère</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeParent">Parent</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
   <string name="relationTypePartner">Partenaire</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
@@ -1439,7 +1479,9 @@
   <!-- Label for "switch to symbols" key.  Must be short to fit on key! -->
   <string name="password_keyboard_label_symbol_key">\?123</string>
   <!-- Label for "switch to alphabetic" key.  Must be short to fit on key! -->
+  <string name="password_keyboard_label_alpha_key">ABC</string>
   <!-- Label for ALT modifier key.  Must be short to fit on key! -->
+  <string name="password_keyboard_label_alt_key">ALT</string>
   <!-- Label for granularity to traverse the content on an AccessibilityNodeInfo by character. Only spoken to the user. [CHAR LIMIT=NONE] -->
   <string name="granularity_label_character">caractère</string>
   <!-- Label for granularity to traverse the content on an AccessibilityNodeInfo by word. Only spoken to the user. [CHAR LIMIT=NONE] -->
@@ -1465,6 +1507,7 @@
   <!-- Title for a JavaScript dialog. "The page at <url of current page> says:" -->
   <string name="js_dialog_title">La page \"<xliff:g id="TITLE">%s</xliff:g>\" indique :</string>
   <!-- Default title for a javascript dialog -->
+  <string name="js_dialog_title_default">JavaScript</string>
   <!-- Title for the unload javascript dialog -->
   <string name="js_dialog_before_unload_title">Quitter la page</string>
   <!-- Text for the positive button on the unload javascript dialog -->
@@ -1483,18 +1526,24 @@
   <string name="setup_autofill">Conf. saisie auto</string>
   <!-- String used to separate FirstName and LastName when writing out a local name
          e.g. John<separator>Smith [CHAR-LIMIT=NONE]-->
-  <string name="autofill_address_name_separator"> </string>
+  <string name="autofill_address_name_separator">\u0020</string>
   <!-- Format string for displaying a name. $1 is First Name, $2 is autofill_address_name_separator, $3 is Last Name.
          e.g. (John)( )(Smith) -->
+  <string name="autofill_address_summary_name_format">$1$2$3</string>
   <!-- String used to separate Name and Address Line 1
          e.g. John Smith<separator>123 Main Street [CHAR-LIMIT=NONE]-->
   <string name="autofill_address_summary_separator">, </string>
   <!-- Format string for displaying a name and address summary. $1 is the Full Name, $2 is autofill_address_summary_separator, $3 is the Address
          e.g. (John Smith)(, )(123 Main Street) -->
+  <string name="autofill_address_summary_format">$1$2$3</string>
   <!-- Do not translate. Regex used by AutoFill. -->
+  <string name="autofill_attention_ignored_re">attention|attn</string>
   <!-- Do not translate. Regex used by AutoFill. -->
+  <string name="autofill_region_ignored_re">province|region|other<!-- es -->|provincia<!-- pt-BR, pt-PT -->|bairro|suburb</string>
   <!-- Do not translate. Regex used by AutoFill. -->
+  <string name="autofill_company_re">company|business|organization|organisation|department<!-- de-DE -->|firma|firmenname<!-- es -->|empresa<!-- fr-FR -->|societe|société<!-- it-IT -->|ragione.?sociale<!-- ja-JP -->|会社<!-- ru -->|название.?компании<!-- zh-CN -->|单位|公司</string>
   <!-- Do not translate. Regex used by AutoFill. -->
+  <string name="autofill_address_line_1_re">address.?line|address1|addr1|street<!-- de-DE -->|strasse|straße|hausnummer|housenumber<!-- en-GB -->|house.?name<!-- es -->|direccion|dirección<!-- fr-FR -->|adresse<!-- it-IT -->|indirizzo<!-- ja-JP -->|住所1<!-- pt-BR, pt-PT -->|morada|endereço<!-- ru -->|Адрес<!-- zh-CN -->|地址</string>
   <!-- Do not translate. Regex used by AutoFill. -->
   <!-- Do not translate. Regex used by AutoFill. -->
   <!-- Do not translate. Regex used by AutoFill. -->
@@ -2252,6 +2301,7 @@
   <!-- Label to show for a service that is running because it is providing conditions. -->
   <string name="condition_provider_service_binding_label">Fournisseur de conditions</string>
   <!-- Do Not Translate: Alternate eri.xml -->
+  <string name="alternate_eri_file">/data/eri.xml</string>
   <!-- The title of the notification when VPN is active. -->
   <string name="vpn_title">VPN activé</string>
   <!-- The title of the notification when VPN is active with an application name. -->

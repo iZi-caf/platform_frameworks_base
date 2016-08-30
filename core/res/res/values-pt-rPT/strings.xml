@@ -20,7 +20,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Suffix added to a number to signify size in bytes. -->
-  <string name="byteShort">B</string>
   <!-- Suffix added to a number to signify size in kilobytes. -->
   <string name="kilobyteShort"> KB</string>
   <!-- Suffix added to a number to signify size in megabytes. -->
@@ -1438,7 +1437,6 @@
   <string name="keyguard_accessibility_slide_area">Área de deslize.</string>
   <!-- Password keyboard strings. Used by LockScreen and Settings -->
   <!-- Label for "switch to symbols" key.  Must be short to fit on key! -->
-  <string name="password_keyboard_label_symbol_key">\?123</string>
   <!-- Label for "switch to alphabetic" key.  Must be short to fit on key! -->
   <!-- Label for ALT modifier key.  Must be short to fit on key! -->
   <!-- Label for granularity to traverse the content on an AccessibilityNodeInfo by character. Only spoken to the user. [CHAR LIMIT=NONE] -->
@@ -1466,7 +1464,6 @@
   <!-- Title for a JavaScript dialog. "The page at <url of current page> says:" -->
   <string name="js_dialog_title">A página em \"<xliff:g id="TITLE">%s</xliff:g>\" indica:</string>
   <!-- Default title for a javascript dialog -->
-  <string name="js_dialog_title_default">JavaScript</string>
   <!-- Title for the unload javascript dialog -->
   <string name="js_dialog_before_unload_title">Confirmar Navegação</string>
   <!-- Text for the positive button on the unload javascript dialog -->
@@ -1485,7 +1482,6 @@
   <string name="setup_autofill">Configurar Preenchimento Automático</string>
   <!-- String used to separate FirstName and LastName when writing out a local name
          e.g. John<separator>Smith [CHAR-LIMIT=NONE]-->
-  <string name="autofill_address_name_separator"> </string>
   <!-- Format string for displaying a name. $1 is First Name, $2 is autofill_address_name_separator, $3 is Last Name.
          e.g. (John)( )(Smith) -->
   <!-- String used to separate Name and Address Line 1
@@ -1909,7 +1905,6 @@
   <!-- Title of the dialog where the user is adjusting the audio volume for notifications -->
   <string name="volume_notification">Volume de notificações</string>
   <!-- Title of the dialog where the user is adjusting the general audio volume -->
-  <string name="volume_unknown">Volume</string>
   <!-- Content description for bluetooth volume icon [CHAR LIMIT=100] -->
   <string name="volume_icon_description_bluetooth">Volume de Bluetooth</string>
   <!-- Content description for ringer volume icon [CHAR LIMIT=100] -->
@@ -1962,7 +1957,6 @@
   <string name="wifi_connect_alert_message">A aplicação %1$s pretende estabelecer ligação à rede Wi-Fi %2$s</string>
   <!-- default application in case name can not be found -->
   <string name="wifi_connect_default_application">Uma aplicação</string>
-  <string name="wifi_p2p_dialog_title">Wi-Fi Direct</string>
   <string name="wifi_p2p_turnon_message">Iniciar o Wi-Fi Direct. Esta opção desativará o cliente/zona Wi-Fi.</string>
   <string name="wifi_p2p_failed_message">Não foi possível iniciar o Wi-Fi Direct.</string>
   <string name="wifi_p2p_enabled_notification_title">O Wi-Fi Direct está ativado</string>
@@ -2111,7 +2105,6 @@
          keyboard is connected[CHAR LIMIT=25] -->
   <string name="show_ime">Mostrar método de entrada</string>
   <!-- Title of the physical keyboard category in the input method selector [CHAR LIMIT=10] -->
-  <string name="hardware">Hardware</string>
   <!-- Title of the notification to prompt the user to select a keyboard layout. -->
   <string name="select_keyboard_layout_notification_title">Selecionar esquema de teclado</string>
   <!-- Message of the notification to prompt the user to select a keyboard layout. -->
@@ -2734,13 +2727,11 @@
   <!-- North America Government Letter media (paper) size: 8.0" × 10.5" (203mm x 267mm) -->
   <string name="mediasize_na_gvrnmt_letter">Carta do governo</string>
   <!-- North America Legal media (paper) size: 8.5" × 14" (216mm x 356mm) -->
-  <string name="mediasize_na_legal">Legal</string>
   <!-- North America Junior Legal media (paper) size: 8.0" × 5.0" (203mm × 127mm) -->
   <string name="mediasize_na_junior_legal">Legal Júnior</string>
   <!-- North America Ledger media (paper) size: 17" × 11" (432mm × 279mm) -->
   <string name="mediasize_na_ledger">Livro Razão</string>
   <!-- North America Tabloid media (paper) size: 11" × 17" (279mm × 432mm) -->
-  <string name="mediasize_na_tabloid">Tabloid</string>
   <!-- North America Index Card 3x5 media (paper) size: 3" x 5" (76mm x 127mm) -->
   <string name="mediasize_na_index_3x5">Cartão de índice 3 x 5</string>
   <!-- North America Index Card 4x6 media (paper) size: 4" x 6" (102mm x 152mm) -->
@@ -2750,7 +2741,6 @@
   <!-- North America Monarch media (paper) size: 7.25" x 10.5" (184mm x 267mm) -->
   <string name="mediasize_na_monarch">Monarca</string>
   <!-- North America Quarto media (paper) size: 8" x 10" (203mm x 254mm) -->
-  <string name="mediasize_na_quarto">Quarto</string>
   <!-- North America Foolscap media (paper) size: 8" x 13" (203mm x 330mm) -->
   <string name="mediasize_na_foolscap">Almaço</string>
   <!-- Chinese Roc 8k media (paper) size: 270mm x 390mm (10.629" x 15.3543") -->
