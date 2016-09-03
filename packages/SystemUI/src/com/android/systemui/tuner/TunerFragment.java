@@ -122,17 +122,6 @@ public class TunerFragment extends PreferenceFragment {
         return super.onOptionsItemSelected(item);
     }
 
-    public final class SettingObserver extends ContentObserver {
-        public SettingObserver() {
-            super(new Handler());
-        }
-
-        @Override
-        public void onChange(boolean selfChange, Uri uri, int userId) {
-            super.onChange(selfChange, uri, userId);
-        }
-    }
-
     private void updateBatteryPct() {
         mBatteryPct.setOnPreferenceChangeListener(null);
         mBatteryPct.setChecked(System.getInt(getContext().getContentResolver(),
