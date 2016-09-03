@@ -78,11 +78,13 @@
   <!-- Name of the button that links to the Settings app. [CHAR LIMIT=NONE] -->
   <string name="status_bar_settings_settings_button">Configurações</string>
   <!-- Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] -->
+  <string name="status_bar_settings_wifi_button">Wi-Fi</string>
   <!-- Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] -->
   <string name="status_bar_settings_auto_rotation">Girar automaticamente a tela</string>
   <!-- Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
   <string name="status_bar_settings_mute_label">MUDO</string>
   <!-- Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
+  <string name="status_bar_settings_auto_brightness_label">AUTO</string>
   <!-- Label in system panel saying the device will show notifications [CHAR LIMIT=30] -->
   <string name="status_bar_settings_notifications">Notificações</string>
   <!-- Separator for PLMN and SPN in network name. -->
@@ -261,22 +263,37 @@
   <!-- Content description of an item that is connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_desc_connecting">Conectando.</string>
   <!-- Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_gprs">GPRS</string>
   <!-- Content description of the data connection type 1x for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_1x">1 X</string>
   <!-- Content description of the data connection type HSPA and its variants for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspa">HSPA</string>
   <!-- Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_3g">3G</string>
   <!-- Content description of the data connection type 3G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_3g_plus">3G+</string>
   <!-- Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_data_connection_3.5g">3,5G</string>
   <!-- Content description of the data connection type 3.5G+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_3.5g_plus">3.5G+</string>
   <!-- Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_4g">4G</string>
   <!-- Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_4g_lte">4GLTE</string>
   <!-- Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_4g_plus">4G+</string>
   <!-- Content description of the data connection type LTE for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_lte">LTE</string>
   <!-- Content description of the data connection type LTE+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_lte_plus">LTE+</string>
   <!-- Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_cdma">CDMA</string>
   <!-- Content description of the roaming data connection type for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_roaming">Roaming</string>
   <!-- Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_edge">Edge</string>
   <!-- Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_wifi">Wi-Fi</string>
   <!-- Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_no_sim">Sem SIM.</string>
   <!-- Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
@@ -306,6 +323,7 @@
   <!-- Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_ringer_silent">Campainha silenciosa.</string>
   <!-- Content description of the cast icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_casting">@string/quick_settings_casting</string>
   <!-- Content description to tell the user that this button will remove an application from recents -->
   <string name="accessibility_recents_item_will_be_dismissed">Descartar <xliff:g id="APP">%s</xliff:g>.</string>
   <!-- Content description to tell the user an application has been removed from recents -->
@@ -461,6 +479,7 @@
   <!-- Name of the launcher shortcut icon that allows dreams to be started immediately [CHAR LIMIT=20] -->
   <string name="start_dreams">DayDream</string>
   <!-- Textual description of Ethernet connections -->
+  <string name="ethernet_label">Ethernet</string>
   <!-- QuickSettings: Do not disturb [CHAR LIMIT=NONE] -->
   <string name="quick_settings_dnd_label">Não perturbe</string>
   <!-- QuickSettings: Do not disturb - Priority only [CHAR LIMIT=NONE] -->
@@ -470,6 +489,7 @@
   <!-- QuickSettings: Do not disturb - Total silence [CHAR LIMIT=NONE] -->
   <string name="quick_settings_dnd_none_label">Silêncio total</string>
   <!-- QuickSettings: Bluetooth [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_bluetooth_label">Bluetooth</string>
   <!-- QuickSettings: Bluetooth (Multiple) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (<xliff:g id="NUMBER">%d</xliff:g> dispositivos)</string>
   <!-- QuickSettings: Bluetooth (Off) [CHAR LIMIT=NONE] -->
@@ -495,6 +515,7 @@
   <!-- QuickSettings: Media device [CHAR LIMIT=NONE] -->
   <string name="quick_settings_media_device_label">Dispositivo de mídia</string>
   <!-- QuickSettings: RSSI [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_rssi_label">RSSI</string>
   <!-- QuickSettings: RSSI (No network) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_rssi_emergency_only">Somente chamadas de emergência</string>
   <!-- QuickSettings: Settings [CHAR LIMIT=NONE] -->
@@ -508,6 +529,7 @@
   <!-- QuickSettings: Label on the item for adding a new user [CHAR LIMIT=NONE] -->
   <string name="quick_settings_user_new_user">Novo usuário</string>
   <!-- QuickSettings: Wifi [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_wifi_label">Wi-Fi</string>
   <!-- QuickSettings: Wifi (Not connected) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_wifi_not_connected">Não conectado</string>
   <!-- QuickSettings: Wifi (No network) [CHAR LIMIT=NONE] -->
@@ -591,6 +613,7 @@
   <!-- Expanded Status Bar Header: Not charging [CHAR LIMIT=40] -->
   <string name="expanded_header_battery_not_charging">Não está carregando</string>
   <!-- Glyph to be overlaid atop the battery when the level is extremely low. Do not translate. -->
+  <string name="battery_meter_very_low_overlay_symbol">!</string>
   <!-- Shows up when there is a user SSL CA Cert installed on the
          device.  Indicates to the user that SSL traffic can be intercepted.
          If the text fits on one line (~14 chars), it should start with a
@@ -792,6 +815,7 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">Você está usando seu perfil de trabalho</string>
   <!-- Name of special SystemUI debug settings -->
+  <string name="system_ui_tuner">Sintonizador da interface do sistema</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">Mostrar porcentagem de bateria incorporada</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -807,6 +831,7 @@
   <!-- Show demo mode icons -->
   <string name="show_demo_mode">Mostrar modo de demonstração</string>
   <!-- Name of the ethernet status bar icon. -->
+  <string name="status_bar_ethernet">Ethernet</string>
   <!-- Name of the alarm status bar icon. -->
   <string name="status_bar_alarm">Alarme</string>
   <!-- Name of the work status bar icon. -->
@@ -818,6 +843,9 @@
   <!-- Name of a quick settings tile controlled by broadcast -->
   <string name="broadcast_tile">Transmitir bloco</string>
   <!-- For preview release. DO NOT TRANSLATE -->
+  <string name="regrettable_lack_of_easter_egg">
+        ¯\\_(ツ)_/¯
+    </string>
   <!-- Warning text when an alarm might be silenced by Do Not Disturb [CHAR LIMIT=NONE] -->
   <string name="zen_alarm_warning_indef">Você não ouvirá o próximo alarme às <xliff:g id="WHEN">%1$s</xliff:g>, a menos que desative essa opção antes desse horário</string>
   <!-- Warning text when an alarm might be silenced by Do Not Disturb due to a time-based condition [CHAR LIMIT=NONE] -->
@@ -842,6 +870,7 @@
   <!-- Hotspot dialog message -->
   <string name="hotspot_apm_message">Não é possível conectar a redes móveis, enquanto o modo avião está ativo. Desative o modo avião e tente novamente.</string>
   <string name="sim1">SIM 1</string>
+  <string name="sim2">SIM 2</string>
   <!-- Battery level for expanded quick settings [CHAR LIMIT=2] -->
   <string name="battery_level_template"><xliff:g id="level" exemplo="45">%d</xliff:g>%%</string>
 </resources>
