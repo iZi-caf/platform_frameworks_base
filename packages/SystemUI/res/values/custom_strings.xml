@@ -51,5 +51,8 @@
     <!-- [CHAR LIMIT=130] Location detail panel, description for high accuracy mode -->
     <string name="quick_settings_location_detail_mode_high_accuracy_description">Use GPS, Wi\u2011Fi, and cellular networks to determine location </string>    
 
+    <!-- Screen timeout tile -->
+    <string name="quick_settings_timeout_label">Timeout</string>
+    <string name="quick_settings_screen_timeout_detail_title">Screen timeout</string>
 
 </resources>
