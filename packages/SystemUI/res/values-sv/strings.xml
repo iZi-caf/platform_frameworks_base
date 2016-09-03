@@ -789,7 +789,6 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">Du använder din jobbprofil</string>
   <!-- Name of special SystemUI debug settings -->
-  <string name="system_ui_tuner">Inställningar för systemgränssnitt</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">Visa inbäddad batteriprocent</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -829,20 +828,6 @@
   <string name="accessibility_status_bar_hotspot">Trådlös surfzon</string>
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
   <string name="accessibility_managed_profile">Jobbprofil</string>
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <string name="tuner_warning_title">Kul för vissa, inte för alla</string>
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <string name="tuner_warning">Du kan använda inställningarna för systemgränssnitt för att justera användargränssnittet i Android. Dessa experimentfunktioner kan när som helst ändras, sluta fungera eller försvinna. Använd med försiktighet.</string>
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <string name="tuner_persistent_warning">Dessa experimentfunktioner kan när som helst ändras, sluta fungera eller försvinna. Använd med försiktighet.</string>
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <string name="got_it">OK</string>
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <string name="tuner_toast">Grattis! Inställningar för systemgränssnitt har lagts till i inställningarna.</string>
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <string name="remove_from_settings">Ta bort från inställningarna</string>
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
-  <string name="remove_from_settings_prompt">Vill du ta bort inställningar för systemgränssnitt från inställningarna och sluta använda alla tillhörande funktioner?</string>
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <string name="enable_bluetooth_title">Vill du aktivera Bluetooth?</string>
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is

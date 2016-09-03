@@ -793,7 +793,6 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">Jy gebruik tans jou werkprofiel</string>
   <!-- Name of special SystemUI debug settings -->
-  <string name="system_ui_tuner">Stelsel-UI-ontvanger</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">Wys persentasie van ingebedde battery</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -834,20 +833,6 @@
   <string name="accessibility_status_bar_hotspot">Warmkol</string>
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
   <string name="accessibility_managed_profile">Werkprofiel</string>
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <string name="tuner_warning_title">Pret vir party mense, maar nie vir almal nie</string>
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <string name="tuner_warning">Stelsel-UI-ontvanger gee jou ekstra maniere om die Android-gebruikerkoppelvlak in te stel en te pasmaak. Hierdie eksperimentele kenmerke kan in toekomstige uitreikings verander, breek of verdwyn. Gaan versigtig voort.</string>
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <string name="tuner_persistent_warning">Hierdie eksperimentele kenmerke kan in toekomstige weergawes verander, breek of verdwyn. Gaan versigtig voort.</string>
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <string name="got_it">Het dit</string>
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <string name="tuner_toast">Geluk! Stelsel-UI-ontvanger is by Instellings gevoeg</string>
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <string name="remove_from_settings">Verwyder uit Instellings</string>
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
-  <string name="remove_from_settings_prompt">Verwyder Stelsel-UI-ontvanger uit Instellings en staak die gebruik van al sy kenmerke?</string>
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <string name="enable_bluetooth_title">Skakel Bluetooth aan?</string>
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is

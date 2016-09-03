@@ -791,7 +791,6 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">Używasz profilu do pracy</string>
   <!-- Name of special SystemUI debug settings -->
-  <string name="system_ui_tuner">Kalibrator System UI</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">Pokaż procent naładowania baterii</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -830,20 +829,6 @@
   <!-- Accessibility label for hotspot icon [CHAR LIMIT=NONE] -->
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
   <string name="accessibility_managed_profile">Profil do pracy</string>
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <string name="tuner_warning_title">Dobra zabawa, ale nie dla każdego</string>
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <string name="tuner_warning">Kalibrator System UI udostępnia dodatkowe sposoby dostrajania i dostosowywania interfejsu Androida. Te eksperymentalne funkcje mogą się zmienić, popsuć lub zniknąć w przyszłych wersjach. Zachowaj ostrożność.</string>
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <string name="tuner_persistent_warning">Te eksperymentalne funkcje mogą się zmienić, popsuć lub zniknąć w przyszłych wersjach. Zachowaj ostrożność.</string>
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <string name="got_it">Rozumiem</string>
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <string name="tuner_toast">Gratulujemy, Kalibrator System UI został dodany do Ustawień</string>
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <string name="remove_from_settings">Usuń z Ustawień</string>
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
-  <string name="remove_from_settings_prompt">Usunąć Kalibrator System UI z Ustawień i przestać używać wszystkich jego funkcji?</string>
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <string name="enable_bluetooth_title">Włączyć Bluetooth?</string>
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is
@@ -852,5 +837,8 @@
   <!-- Bluetooth enablement ok text [CHAR LIMIT=40] -->
   <string name="enable_bluetooth_confirmation_ok">Włącz</string>
   <!-- Hotspot dialog message -->
+  <string name="hotspot_apm_message">Nie można połączyć się z siecią komórkową, podczas, gdy włączony jest tryb samolotowy. Wyłącz tryb samolotowy, a następnie spróbuj ponownie.</string>
+  <string name="sim1">1 Karta Sim</string>
+  <string name="sim2">2 Karta Sim</string>
   <!-- Battery level for expanded quick settings [CHAR LIMIT=2] -->
 </resources>

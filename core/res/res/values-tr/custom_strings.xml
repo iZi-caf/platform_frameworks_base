@@ -17,7 +17,9 @@
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
   <!-- Reboot menu -->
   <!-- Button to reboot the phone, within the Reboot Options dialog -->
+  <string name="reboot_reboot">Yeniden Başlat</string>
   <!-- Button to reboot the phone into recovery, within the Reboot Options dialog -->
+  <string name="reboot_recovery">Kurtarma</string>
   <!-- Button to reboot the phone into bootloader, within the Reboot Options dialog -->
   <!-- Button to soft reboot the device, within the Reboot Options dialog -->
 </resources>

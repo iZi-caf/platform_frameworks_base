@@ -20,11 +20,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Suffix added to a number to signify size in bytes. -->
+  <string name="byteShort">B</string>
   <!-- Suffix added to a number to signify size in kilobytes. -->
+  <string name="kilobyteShort">KB</string>
   <!-- Suffix added to a number to signify size in megabytes. -->
+  <string name="megabyteShort">MB</string>
   <!-- Suffix added to a number to signify size in gigabytes. -->
+  <string name="gigabyteShort">GB</string>
   <!-- Suffix added to a number to signify size in terabytes. -->
+  <string name="terabyteShort">TB</string>
   <!-- Suffix added to a number to signify size in petabytes. -->
+  <string name="petabyteShort">PB</string>
   <!-- Format string used to add a suffix like "KB" or "MB" to a number
          to display a size in kilobytes, megabytes, or other size units.
          Some languages (like French) will want to add a space between
@@ -64,6 +70,7 @@
   <!-- What the UI should display for "voice mail" unless overridden by the SIM-->
   <string name="defaultVoiceMailAlphaTag">Segreteria</string>
   <!-- What the UI should display for "Msisdn" unless overridden by the SIM-->
+  <string name="defaultMsisdnAlphaTag">MSISDN1</string>
   <!-- For GsmMmiCode.java -->
   <!-- Displayed when the user dialed an MMI code whose function
          could not be performed. This will be displayed in a toast. -->
@@ -108,8 +115,10 @@
     <item quantity="other">Hai ancora <xliff:g id="NUMBER_1">%d</xliff:g> tentativi a disposizione prima che la SIM venga bloccata.</item>
   </plurals>
   <!-- Title for the dialog used to display the user's IMEI number [CHAR LIMIT=10] -->
+  <string name="imei">IMEI</string>
   <!-- Title for the dialog used to display the user's MEID number on CDMA network
          [CHAR LIMIT=10] -->
+  <string name="meid">MEID</string>
   <!-- Displayed as the title for a success/failure report enabling/disabling caller ID. -->
   <string name="ClipMmi">ID chiamante in entrata</string>
   <!-- Displayed as the title for a success/failure report enabling/disabling caller ID. -->
@@ -175,7 +184,9 @@
   <!-- Example: Service was enabled for: Voice, Data -->
   <string name="serviceClassData">Dati</string>
   <!-- Example: Service was enabled for: Voice, FAX -->
+  <string name="serviceClassFAX">FAX</string>
   <!-- Example: Service was enabled for: Voice, SMS -->
+  <string name="serviceClassSMS">SMS</string>
   <!-- Meaning: asynchronous data.  Example: Service was enabled for: Voice, Async -->
   <string name="serviceClassDataAsync">Asinc</string>
   <!-- Meaning: synchronous data.  Example: Service was enabled for: Voice, Async -->
@@ -183,6 +194,7 @@
   <!-- Meaning: packet data.  Example: Service was enabled for: Voice, Packet -->
   <string name="serviceClassPacket">Pacchetto</string>
   <!-- Meaning: unknown.  Example: Service was enabled for: Voice, PAD -->
+  <string name="serviceClassPAD">PAD</string>
   <!-- CDMA Roaming Indicator Strings (non ERI)-->
   <!-- Default roaming indicator text -->
   <string name="roamingText0">Indicatore roaming attivato</string>
@@ -240,6 +252,7 @@
   <string name="fcError">Problema di connessione o codice funzione non valido.</string>
   <!-- android.net.http Error strings -->
   <!-- Displayed when a web request was successful. -->
+  <string name="httpErrorOk">Ok</string>
   <!-- Displayed when a web request failed with a generic network error. -->
   <string name="httpError">Si è verificato un errore di rete.</string>
   <!-- Displayed when a web request failed because the URL could not be found. -->
@@ -385,9 +398,13 @@
          when the user asks to reboot into safe mode. [CHAR LIMIT=NONE] -->
   <string name="reboot_safemode_confirm">Riavviare in modalità provvisoria? Ciò comporterà la disattivazione di tutte le applicazioni di terze parti installate. Verranno ripristinate al prossimo riavvio.</string>
   <!-- Title of dialog to confirm rebooting. -->
+  <string name="reboot_title">Riavvia</string>
   <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the device, there will
          be a confirmation dialog.  This is the message. -->
+  <string name="reboot_confirm" product="tablet">Il tablet verrà riavviato.</string>
+  <string name="reboot_confirm" product="default">Il telefono verrà riavviato.</string>
   <!-- Rebooting Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+  <string name="reboot_progress">Riavvio in corso</string>
   <!-- Recent Tasks dialog: title
      TODO: this should move to SystemUI.apk, but the code for the old
             recent dialog is still in the framework
@@ -409,6 +426,7 @@
   <!-- label for item that turns off power in phone options dialog -->
   <string name="global_action_power_off">Spegni</string>
   <!-- label for item that reboots the phone in phone options dialog -->
+  <string name="global_action_reboot">Riavvia</string>
   <!-- label for item that generates a bug report in the phone options dialog -->
   <string name="global_action_bug_report">Segnalazione di bug</string>
   <!-- Take bug report menu title [CHAR LIMIT=NONE] -->
@@ -433,6 +451,7 @@
   <!-- label for item that launches assist in phone options dialog [CHAR LIMIT=15]-->
   <string name="global_action_assist">Assistenza</string>
   <!-- label for item that launches voice assist in phone options dialog [CHAR LIMIT=15]-->
+  <string name="global_action_voice_assist">Assistente Vocale</string>
   <!-- label for item that locks the phone and enforces that it can't be unlocked without entering a credential. [CHAR LIMIT=15] -->
   <string name="global_action_lockdown">Blocca ora</string>
   <!-- Text to use when the number in a notification info is too large
@@ -440,6 +459,7 @@
          values/config.xml) and must be truncated. May need to be localized
          for most appropriate textual indicator of "more than X".
          [CHAR LIMIT=4] -->
+  <string name="status_bar_notification_info_overflow">999+</string>
   <!-- Displayed to the user to tell them that they have started up the phone in "safe mode" -->
   <string name="safeMode">Modalità provvisoria</string>
   <!-- Label for the Android system components when they are shown to the user. -->
@@ -461,6 +481,7 @@
   <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permgroupdesc_calendar">accedere al calendario</string>
   <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permgrouplab_sms">SMS</string>
   <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
   <string name="permgroupdesc_sms">inviare e visualizzare SMS</string>
   <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
@@ -1079,6 +1100,16 @@
   </string-array>
   <!-- The order of these is important, don't reorder without changing Contacts.java -->
   <!-- Instant Message protocols/providers from android.provider.Contacts -->
+  <string-array name="imProtocols">
+    <item>AIM</item>
+    <item>Windows Live</item>
+    <item>Yahoo</item>
+    <item>Skype</item>
+    <item>QQ</item>
+    <item>Google Talk</item>
+    <item>ICQ</item>
+    <item>Jabber</item>
+  </string-array>
   <!-- Custom phone number type -->
   <string name="phoneTypeCustom">Personalizzato</string>
   <!-- Home phone number type -->
@@ -1096,11 +1127,13 @@
   <!-- Other phone number type -->
   <string name="phoneTypeOther">Altro</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Richiamata</string>
   <!-- Car phone number type -->
   <string name="phoneTypeCar">Automobile</string>
   <!-- Company main phone number type -->
   <string name="phoneTypeCompanyMain">Azienda, principale</string>
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
   <string name="phoneTypeMain">Principale</string>
   <!-- Other fax phone number type -->
@@ -1108,7 +1141,9 @@
   <!-- Radio phone number type -->
   <string name="phoneTypeRadio">Segnale radio</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
   <string name="phoneTypeWorkMobile">Cellulare lavoro</string>
   <!-- Work pager phone number type -->
@@ -1116,6 +1151,7 @@
   <!-- Assistant phone number type -->
   <string name="phoneTypeAssistant">Assistente</string>
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
   <string name="eventTypeCustom">Personalizzato</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
@@ -1153,14 +1189,23 @@
   <!-- Custom IM protocol type -->
   <string name="imProtocolCustom">Personalizzato</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
+  <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
+  <string name="imProtocolYahoo">Yahoo</string>
   <!-- Skype IM protocol type -->
+  <string name="imProtocolSkype">Skype</string>
   <!-- QQ IM protocol type -->
+  <string name="imProtocolQq">QQ</string>
   <!-- Google Talk IM protocol type -->
+  <string name="imProtocolGoogleTalk">Hangouts</string>
   <!-- ICQ IM protocol type -->
+  <string name="imProtocolIcq">ICQ</string>
   <!-- Jabber IM protocol type -->
+  <string name="imProtocolJabber">Jabber</string>
   <!-- NetMeeting IM protocol type -->
+  <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
   <string name="orgTypeWork">Lavoro</string>
   <!-- Other organization type -->
@@ -1188,6 +1233,7 @@
   <!-- Parent relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeParent">Genitore</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypePartner">Partner</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeReferredBy">Riferito da</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
@@ -1356,6 +1402,7 @@
   <!-- Hint caption for the username field when unlocking the phone using login and password -->
   <string name="lockscreen_glogin_username_hint">Nome utente (email)</string>
   <!-- Hint caption for the password field when unlocking the phone using login and password -->
+  <string name="lockscreen_glogin_password_hint">Password</string>
   <!-- Button to try to unlock the phone using username and password -->
   <string name="lockscreen_glogin_submit_button">Accedi</string>
   <!-- Displayed to the user when unlocking the phone with a username and password fails. -->
@@ -1427,7 +1474,9 @@
   <string name="keyguard_accessibility_slide_area">Area di scorrimento.</string>
   <!-- Password keyboard strings. Used by LockScreen and Settings -->
   <!-- Label for "switch to symbols" key.  Must be short to fit on key! -->
+  <string name="password_keyboard_label_symbol_key">\?123</string>
   <!-- Label for "switch to alphabetic" key.  Must be short to fit on key! -->
+  <string name="password_keyboard_label_alpha_key">ABC</string>
   <!-- Label for ALT modifier key.  Must be short to fit on key! -->
   <!-- Label for granularity to traverse the content on an AccessibilityNodeInfo by character. Only spoken to the user. [CHAR LIMIT=NONE] -->
   <string name="granularity_label_character">carattere</string>

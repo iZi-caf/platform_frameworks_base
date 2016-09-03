@@ -20,12 +20,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Suffix added to a number to signify size in bytes. -->
+  <string name="byteShort">B</string>
   <!-- Suffix added to a number to signify size in kilobytes. -->
   <string name="kilobyteShort"> KB</string>
   <!-- Suffix added to a number to signify size in megabytes. -->
+  <string name="megabyteShort"> MB</string>
   <!-- Suffix added to a number to signify size in gigabytes. -->
+  <string name="gigabyteShort">GB</string>
   <!-- Suffix added to a number to signify size in terabytes. -->
+  <string name="terabyteShort">TB</string>
   <!-- Suffix added to a number to signify size in petabytes. -->
+  <string name="petabyteShort">PB</string>
   <!-- Format string used to add a suffix like "KB" or "MB" to a number
          to display a size in kilobytes, megabytes, or other size units.
          Some languages (like French) will want to add a space between
@@ -65,6 +70,7 @@
   <!-- What the UI should display for "voice mail" unless overridden by the SIM-->
   <string name="defaultVoiceMailAlphaTag">Correio de voz</string>
   <!-- What the UI should display for "Msisdn" unless overridden by the SIM-->
+  <string name="defaultMsisdnAlphaTag">MSISDN1</string>
   <!-- For GsmMmiCode.java -->
   <!-- Displayed when the user dialed an MMI code whose function
          could not be performed. This will be displayed in a toast. -->
@@ -109,8 +115,10 @@
     <item quantity="other">Tem mais <xliff:g id="NUMBER_1">%d</xliff:g> tentativas antes de o cartão SIM ficar bloqueado.</item>
   </plurals>
   <!-- Title for the dialog used to display the user's IMEI number [CHAR LIMIT=10] -->
+  <string name="imei">IMEI</string>
   <!-- Title for the dialog used to display the user's MEID number on CDMA network
          [CHAR LIMIT=10] -->
+  <string name="meid">MEID</string>
   <!-- Displayed as the title for a success/failure report enabling/disabling caller ID. -->
   <string name="ClipMmi">ID do Autor da Chamada</string>
   <!-- Displayed as the title for a success/failure report enabling/disabling caller ID. -->
@@ -176,7 +184,9 @@
   <!-- Example: Service was enabled for: Voice, Data -->
   <string name="serviceClassData">Dados</string>
   <!-- Example: Service was enabled for: Voice, FAX -->
+  <string name="serviceClassFAX">FAX</string>
   <!-- Example: Service was enabled for: Voice, SMS -->
+  <string name="serviceClassSMS">SMS</string>
   <!-- Meaning: asynchronous data.  Example: Service was enabled for: Voice, Async -->
   <string name="serviceClassDataAsync">Assíncronos</string>
   <!-- Meaning: synchronous data.  Example: Service was enabled for: Voice, Async -->
@@ -184,6 +194,7 @@
   <!-- Meaning: packet data.  Example: Service was enabled for: Voice, Packet -->
   <string name="serviceClassPacket">Pacote</string>
   <!-- Meaning: unknown.  Example: Service was enabled for: Voice, PAD -->
+  <string name="serviceClassPAD">PAD</string>
   <!-- CDMA Roaming Indicator Strings (non ERI)-->
   <!-- Default roaming indicator text -->
   <string name="roamingText0">Indicador de Roaming ativado</string>

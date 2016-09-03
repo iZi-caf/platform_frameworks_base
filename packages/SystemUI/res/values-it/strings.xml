@@ -781,7 +781,6 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">Stai utilizzando il profilo di lavoro</string>
   <!-- Name of special SystemUI debug settings -->
-  <string name="system_ui_tuner">Sintetizzatore interfaccia utente di sistema</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">Mostra percentuale batteria incorporata</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -821,20 +820,6 @@
   <!-- Accessibility label for hotspot icon [CHAR LIMIT=NONE] -->
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
   <string name="accessibility_managed_profile">Profilo di lavoro</string>
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <string name="tuner_warning_title">Il divertimento riservato a pochi eletti</string>
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <string name="tuner_warning">Il sintetizzatore interfaccia utente di sistema mette a disposizione altri metodi per modificare e personalizzare l\'interfaccia utente di Android. Queste funzioni sperimentali potrebbero cambiare, interrompersi o scomparire nelle versioni successive. Procedi con cautela.</string>
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <string name="tuner_persistent_warning">Queste funzioni sperimentali potrebbero cambiare, interrompersi o scomparire nelle versioni successive. Procedi con cautela.</string>
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <string name="got_it">OK</string>
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <string name="tuner_toast">Complimenti! Il sintetizzatore interfaccia utente di sistema è stato aggiunto alle impostazioni.</string>
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <string name="remove_from_settings">Rimuovi dalle impostazioni</string>
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
-  <string name="remove_from_settings_prompt">Vuoi rimuovere il sintetizzatore interfaccia utente di sistema dalle impostazioni e smettere di utilizzare tutte le sue funzioni?</string>
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <string name="enable_bluetooth_title">Attivare il Bluetooth?</string>
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is

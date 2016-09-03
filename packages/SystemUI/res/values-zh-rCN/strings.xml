@@ -796,7 +796,6 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">您当前正在使用工作资料</string>
   <!-- Name of special SystemUI debug settings -->
-  <string name="system_ui_tuner">系统界面调谐器</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">嵌入式显示电池电量百分比 显示嵌入的电池电量百分比</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -838,20 +837,6 @@
   <string name="accessibility_status_bar_hotspot">热点</string>
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
   <string name="accessibility_managed_profile">工作资料</string>
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <string name="tuner_warning_title">是否有趣完全取决于个人感觉</string>
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <string name="tuner_warning">系统界面调谐器可让您通过其他方式调整及自定义 Android 用户界面。在日后推出的版本中，这些实验性功能可能会变更、损坏或消失。操作时请务必谨慎。</string>
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <string name="tuner_persistent_warning">在日后推出的版本中，这些实验性功能可能会变更、损坏或消失。操作时请务必谨慎。</string>
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <string name="got_it">知道了</string>
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <string name="tuner_toast">恭喜！系统界面调谐器已添加到“设置”中</string>
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <string name="remove_from_settings">从“设置”中移除</string>
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
-  <string name="remove_from_settings_prompt">要将系统界面调谐器从“设置”中移除，并停止使用所有相关功能吗？</string>
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <string name="enable_bluetooth_title">要开启蓝牙吗？</string>
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is

@@ -794,7 +794,6 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">Користите профил за Work</string>
   <!-- Name of special SystemUI debug settings -->
-  <string name="system_ui_tuner">Тјунер за кориснички интерфејс система</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">Приказуј уграђени проценат батерије</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -836,20 +835,6 @@
   <string name="accessibility_status_bar_hotspot">Хотспот</string>
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
   <string name="accessibility_managed_profile">Профил за Work</string>
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <string name="tuner_warning_title">Забава за неке, али не за све</string>
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <string name="tuner_warning">Тјунер за кориснички интерфејс система вам пружа додатне начине за подешавање и прилагођавање Android корисничког интерфејса. Ове експерименталне функције могу да се промене, откажу или нестану у будућим издањима. Будите опрезни.</string>
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <string name="tuner_persistent_warning">Ове експерименталне функције могу да се промене, откажу или нестану у будућим издањима. Будите опрезни.</string>
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <string name="got_it">Важи</string>
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <string name="tuner_toast">Честитамо! Тјунер за кориснички интерфејс система је додат у Подешавања</string>
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <string name="remove_from_settings">Уклони из Подешавања</string>
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
-  <string name="remove_from_settings_prompt">Желите ли да уклоните Тјунер за кориснички интерфејс система из Подешавања и да престанете да користите све његове функције?</string>
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <string name="enable_bluetooth_title">Желите ли да укључите Bluetooth?</string>
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is

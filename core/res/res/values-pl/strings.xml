@@ -20,11 +20,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Suffix added to a number to signify size in bytes. -->
+  <string name="byteShort">B</string>
   <!-- Suffix added to a number to signify size in kilobytes. -->
+  <string name="kilobyteShort">KB</string>
   <!-- Suffix added to a number to signify size in megabytes. -->
+  <string name="megabyteShort">MB</string>
   <!-- Suffix added to a number to signify size in gigabytes. -->
+  <string name="gigabyteShort">GB</string>
   <!-- Suffix added to a number to signify size in terabytes. -->
+  <string name="terabyteShort">TB</string>
   <!-- Suffix added to a number to signify size in petabytes. -->
+  <string name="petabyteShort">PB</string>
   <!-- Format string used to add a suffix like "KB" or "MB" to a number
          to display a size in kilobytes, megabytes, or other size units.
          Some languages (like French) will want to add a space between
@@ -387,9 +393,13 @@
          when the user asks to reboot into safe mode. [CHAR LIMIT=NONE] -->
   <string name="reboot_safemode_confirm">Chcesz uruchomić urządzenie w trybie awaryjnym? W ten sposób wyłączysz wszystkie zainstalowane aplikacje innych firm. Zostaną one przywrócone po ponownym uruchomieniu.</string>
   <!-- Title of dialog to confirm rebooting. -->
+  <string name="reboot_title">Uruchom ponownie</string>
   <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the device, there will
          be a confirmation dialog.  This is the message. -->
+  <string name="reboot_confirm" product="tablet">Twój tablet uruchomi się ponownie.</string>
+  <string name="reboot_confirm" product="default">Twój telefon uruchomi się ponownie.</string>
   <!-- Rebooting Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+  <string name="reboot_progress">Ponowne uruchamianie</string>
   <!-- Recent Tasks dialog: title
      TODO: this should move to SystemUI.apk, but the code for the old
             recent dialog is still in the framework
@@ -411,6 +421,7 @@
   <!-- label for item that turns off power in phone options dialog -->
   <string name="global_action_power_off">Wyłącz</string>
   <!-- label for item that reboots the phone in phone options dialog -->
+  <string name="global_action_reboot">Uruchom ponownie</string>
   <!-- label for item that generates a bug report in the phone options dialog -->
   <string name="global_action_bug_report">Zgłoszenie błędu</string>
   <!-- Take bug report menu title [CHAR LIMIT=NONE] -->

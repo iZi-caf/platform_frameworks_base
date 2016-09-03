@@ -450,13 +450,6 @@
   <!-- Accessibility label for Quick Settings detail screens [CHAR LIMIT=NONE] -->
   <!-- Accessibility label for hotspot icon [CHAR LIMIT=NONE] -->
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is
          conncted to the device [CHAR LIMIT=NONE] -->

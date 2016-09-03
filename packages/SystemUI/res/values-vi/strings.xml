@@ -792,7 +792,6 @@
   <!-- Toast shown when user unlocks screen and managed profile activity is in the foreground -->
   <string name="managed_profile_foreground_toast">Bạn đang sử dụng hồ sơ công việc của mình</string>
   <!-- Name of special SystemUI debug settings -->
-  <string name="system_ui_tuner">Bộ điều hướng giao diện người dùng hệ thống</string>
   <!-- Preference to show/hide embedded battery percentage [CHAR LIMIT=50] -->
   <string name="show_battery_percentage">Hiển thị tỷ lệ phần trăm pin được nhúng</string>
   <!-- Summary for battery percentage preference [CHAR LIMIT=NONE] -->
@@ -833,20 +832,6 @@
   <string name="accessibility_status_bar_hotspot">Điểm phát sóng</string>
   <!-- Accessibility label for managed profile icon (not shown on screen) [CHAR LIMIT=NONE] -->
   <string name="accessibility_managed_profile">Hồ sơ công việc</string>
-  <!-- Title of warning when entering System UI tuner for first time [CHAR LIMIT=NONE] -->
-  <string name="tuner_warning_title">Thú vị đối với một số người nhưng không phải tất cả</string>
-  <!-- Warning for users entering the System UI tuner for the first time [CHAR LIMIT=NONE]-->
-  <string name="tuner_warning">Bộ điều hướng giao diện người dùng hệ thống cung cấp thêm cho bạn những cách chỉnh sửa và tùy chỉnh giao diện người dùng Android. Những tính năng thử nghiệm này có thể thay đổi, hỏng hoặc biến mất trong các phiên bản tương lai. Hãy thận trọng khi tiếp tục.</string>
-  <!-- Warning for users entering the System UI tuner [CHAR LIMIT=NONE]-->
-  <string name="tuner_persistent_warning">Những tính năng thử nghiệm này có thể thay đổi, hỏng hoặc biến mất trong các phiên bản tương lai. Hãy thận trọng khi tiếp tục.</string>
-  <!-- Generic "got it" acceptance of dialog or cling [CHAR LIMIT=NONE] -->
-  <string name="got_it">OK</string>
-  <!-- Toast describing tuner has been enabled [CHAR LIMIT=NONE] -->
-  <string name="tuner_toast">Xin chúc mừng! Bộ điều hướng giao diện người dùng hệ thống đã được thêm vào Cài đặt</string>
-  <!-- Option to remove the tuner from settings [CHAR LIMIT=NONE] -->
-  <string name="remove_from_settings">Xóa khỏi Cài đặt</string>
-  <!-- Dialog asking if the tuner should really be removed from settings [CHAR LIMIT=NONE]-->
-  <string name="remove_from_settings_prompt">Xóa Bộ điều hướng giao diện người dùng hệ thống khỏi Cài đặt và ngừng sử dụng tất cả tính năng của ứng dụng này?</string>
   <!-- Dialog title asking if Bluetooth should be enabled [CHAR LIMIT=NONE] -->
   <string name="enable_bluetooth_title">Bật Bluetooth?</string>
   <!-- Dialog message explaining why Bluetooth should be enabled when a packaged keyboard is

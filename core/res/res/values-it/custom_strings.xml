@@ -14,10 +14,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="permlab_preventpower">riassegna il tasto di accensione</string>
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_preventpower">Consenti all\'app di cambiare il comportamento del pulsante di spegnimento.</string>
   <!-- Reboot menu -->
   <!-- Button to reboot the phone, within the Reboot Options dialog -->
+  <string name="reboot_reboot">Riavvia</string>
   <!-- Button to reboot the phone into recovery, within the Reboot Options dialog -->
+  <string name="reboot_recovery">Riavvia in recovery</string>
   <!-- Button to reboot the phone into bootloader, within the Reboot Options dialog -->
+  <string name="reboot_bootloader">Riavvia in Bootloader</string>
   <!-- Button to soft reboot the device, within the Reboot Options dialog -->
+  <string name="reboot_soft">Riavvio veloce</string>
 </resources>

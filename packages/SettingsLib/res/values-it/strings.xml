@@ -22,20 +22,33 @@
   <!-- Toast message when Wi-Fi cannot scan for networks -->
   <string name="wifi_fail_to_scan">Impossibile cercare reti</string>
   <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+  <string name="wifi_security_short_wep">WEP</string>
   <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+  <string name="wifi_security_short_wpa">WPA</string>
   <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+  <string name="wifi_security_short_wpa2">WPA2</string>
   <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+  <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
   <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+  <string name="wifi_security_short_eap">802.1 x</string>
   <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
   <string name="wifi_security_none">Nessuna</string>
   <!-- Do not translate.  Terminology for wifi with WEP security -->
+  <string name="wifi_security_wep">WEP</string>
   <!-- Do not translate.  Terminology for wifi with WPA security -->
+  <string name="wifi_security_wpa">WPA PSK</string>
   <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+  <string name="wifi_security_wpa2">WPA2 PSK</string>
   <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+  <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
   <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+  <string name="wifi_security_eap">802.1x EAP</string>
   <!-- Do not translate.  Concise terminology for Passpoint network -->
+  <string name="wifi_security_passpoint">Passpoint</string>
   <!-- Summary for the remembered network. -->
   <string name="wifi_remembered">Salvata</string>
   <!-- Status for networks disabled for unknown reason -->
@@ -102,6 +115,7 @@
   <!-- Bluetooth settings. The user-visible string that is used whenever referring to the SAP profile (sharing SIM card). -->
   <string name="bluetooth_profile_sap">Accesso alla SIM</string>
   <!-- Bluetooth settings. The user-visible string that is used whenever referring to the dun profile. -->
+  <string name="bluetooth_profile_dun">Accesso rete remota</string>
   <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. -->
   <string name="bluetooth_a2dp_profile_summary_connected">Collegato ad audio media</string>
   <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. -->
@@ -121,6 +135,7 @@
   <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (NAP role). [CHAR LIMIT=25]-->
   <string name="bluetooth_pan_nap_profile_summary_connected">Connessione Internet locale condivisa con dispositivo</string>
   <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. -->
+  <string name="bluetooth_dun_profile_summary_connected">Connesso al Server DUN</string>
   <!-- Bluetooth settings. Connection options screen. The summary
          for the PAN checkbox preference that describes how checking it
          will set the PAN profile as preferred. -->
@@ -140,6 +155,7 @@
          will set the HID profile as preferred. -->
   <string name="bluetooth_hid_profile_summary_use_for">Utilizza per l\'input</string>
   <!-- Bluetooth settings. Connection options screen.  The summary for the dun checkbox preference that describes how checking it will set the dun profile as preferred. -->
+  <string name="bluetooth_dun_profile_summary_use_for">Usa per accesso rete remota</string>
   <!-- Button text for accepting an incoming pairing request. [CHAR LIMIT=20] -->
   <string name="bluetooth_pairing_accept">Accoppia</string>
   <!-- Button text for accepting an incoming pairing request in all caps. [CHAR LIMIT=20] -->
